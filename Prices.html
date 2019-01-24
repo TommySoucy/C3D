@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <title>C3D Filament prices</title>
     <link rel="stylesheet" type="text/css" href="https://tommysoucy.github.io/VIP.css" />
-    <script type="text/javascript" src="https://tommysoucy.github.io/functLib.js"></script>
+    <script src="https://tommysoucy.github.io/functLib.js"></script>
     <style>
         li{
             margin: 10px;
         }
         body{
-            color: black;
+            text-align: center;
+        }
+        ul{
+            list-style-position: inside;
         }
     </style>
 </head>
-<body bgcolor="black" style="text-align: center">
-<h1 style="color: white">Filament prices table</h1>
-<table border="2" align="center">
+<body>
+<h1>Filament prices table</h1>
+<table align="center">
     <tr bgcolor="#808080">
         <th>Material</th>
         <th>Color</th>
         <th>Cost</th>
         <th>Amount left</th>
     </tr>
-    <tr bgcolor="black" style="color: white">
-        <td rowspan="15" style="text-align: center">PLA</td>
+    <tr bgcolor="black">
+        <th rowspan="15">PLA</th>
         <td>Black</td>
         <td>0.10$/g</td>
         <td>&gt;200g</td>
@@ -34,33 +37,33 @@
         <td>0.10$/g</td>
         <td>1000g</td>
     </tr>
-    <tr bgcolor="white">
+    <tr class="inv" bgcolor="white">
         <td>White</td>
         <td>0.10$/g</td>
         <!--0.025/g-->
         <td>1000g</td>
     </tr>
-    <tr bgcolor="#ffc0cb">
+    <tr class="inv" bgcolor="#ffc0cb">
         <td>Pink</td>
         <td>0.10$/g</td>
         <td>None</td>
     </tr>
-    <tr bgcolor="red">
+    <tr class="inv" bgcolor="red">
         <td>Red</td>
         <td>0.10$/g</td>
         <td>1000g</td>
     </tr>
-    <tr bgcolor="orange">
+    <tr class="inv" bgcolor="orange">
         <td>Orange</td>
         <td>0.10$/g</td>
         <td>1000g</td>
     </tr>
-    <tr bgcolor="yellow">
+    <tr class="inv" bgcolor="yellow">
         <td>Yellow</td>
         <td>0.10$/g</td>
         <td>&gt;500g</td>
     </tr>
-    <tr bgcolor="#90ee90">
+    <tr class="inv" bgcolor="#90ee90">
         <td>Light green</td>
         <td>0.1$/g</td>
         <td>None</td>
@@ -75,22 +78,22 @@
         <td>0.1$/g</td>
         <td>None</td>
     </tr>
-    <tr bgcolor="#00bfff">
+    <tr class="inv" bgcolor="#00bfff">
         <td>Light blue</td>
         <td>0.1$/g</td>
         <td>1000g</td>
     </tr>
-    <tr bgcolor="blue"; style="color: white;">
+    <tr bgcolor="blue";>
         <td>Blue</td>
         <td>0.1$/g</td>
         <td>None</td>
     </tr>
-    <tr bgcolor="#00008b"; style="color: white;">
+    <tr bgcolor="#00008b";>
         <td>Dark blue</td>
         <td>0.10$/g</td>
         <td>2000g</td>
     </tr>
-    <tr bgcolor="purple"; style="color: white;">
+    <tr bgcolor="purple";>
         <td>Purple</td>
         <td>0.10$/g</td>
         <td>None</td>
@@ -100,21 +103,21 @@
         <td>0.10%/g</td>
         <td>1000g</td>
     </tr>
-    <tr bgcolor="black" style="color: white">
-        <td rowspan="2" style="text-align: center">PETG</td>
+    <tr bgcolor="black">
+        <th rowspan="2">PETG</th>
         <td>Black</td>
         <td>0.15$/g</td>
         <!--0.031$/g-->
         <td>&gt;500g</td>
     </tr>
-    <tr bgcolor="white">
+    <tr class="inv" bgcolor="white">
         <td>White</td>
         <td>0.15$/g</td>
         <td>200g</td>
     </tr>
 </table>
-<h2 style="color: white">Additional prices and details</h2>
-<ul style="color: white; list-style-position: inside">
+<h2>Additional prices and details</h2>
+<ul>
     <li>0.25$ per hour of print time, calculated by the minute.</li>
     <li>If modelling needs to be done. There's no set price, its really dependent on how much time I have and how long the job takes.</li>
     <li>If delivery needs to be made. I really don't want to do that but if there's no possible meeting time or whatever. Dependent on how far I have to go.</li>
