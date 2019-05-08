@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>C3D Filament prices</title>
+    <title>C3D</title>
     <link rel="stylesheet" type="text/css" href="https://tommysoucy.github.io/style/VIP.css" />
     <link rel="icon" type="image/x-icon" href="https://tommysoucy.github.io/images/favicon.ico">
     <script src="https://tommysoucy.github.io/js/functLib.js"></script>
@@ -10,7 +10,7 @@
     <script src="https://tommysoucy.github.io/js/GLTFLoader.js"></script>
     <script src="https://tommysoucy.github.io/js/model-element.min.js"></script>
 </head>
-<body>
+<body id="mainSiteBody">
 <header>
     <div id="topBar"></div>
     <div id="logoBG"></div>
@@ -70,98 +70,37 @@
         </div>
     </nav>
 </header>
-<h1>Filament prices table</h1>
-<table id="pricesTable">
-    <tr class="grayCell">
-        <th>Material</th>
-        <th>Color</th>
-        <th>Cost</th>
-    </tr>
-    <tr class="blackCell">
-        <th rowspan="16">PLA</th>
-        <td>Black</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="grayCell">
-        <td>Gray</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="grayCell">
-        <td>Silver</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="whiteCell inv">
-        <td>White</td>
-        <td>0.075$/g</td>
-        <!--0.025/g-->
-    </tr>
-    <tr class="redCell inv">
-        <td>Red</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="orangeCell inv">
-        <td>Orange</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="fluoYellowCell inv">
-        <td>Fluorescent Yellow</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="yellowCell inv">
-        <td>Yellow</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="pearlGoldCell inv">
-        <td>Pearl Gold</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="yellowCell inv">
-        <td>Gold</td>
-        <td>0.107$/g</td>
-    </tr>
-    <tr class="lightGreenCell inv">
-        <td>Light green</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="greenCell">
-        <td>Green</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="lightBlueCell inv">
-        <td>Light blue</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="darkBlueCell">
-        <td>Dark Blue</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="beigeCell inv">
-        <td>Beige</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="brownCell">
-        <td>Brown</td>
-        <td>0.075$/g</td>
-    </tr>
-    <tr class="blackCell">
-        <th rowspan="2">PETG</th>
-        <td>Black</td>
-        <td>0.093$/g</td>
-        <!--0.031$/g-->
-    </tr>
-    <tr class="whiteCell inv">
-        <td>White</td>
-        <td>0.093$/g</td>
-    </tr>
-</table>
-<h2>Additional prices and details</h2>
-<ul>
-    <li>0.25$ per hour of print time, calculated by the minute.</li>
-    <li>If modelling needs to be done. There's no set price, its really dependent on how much time I have and how long the job takes.</li>
-    <li>If delivery needs to be made. I really don't want to do that but if there's no possible meeting time or whatever. Dependent on how far I have to go.</li>
-    <li>TBH the whole point is to give you a better price than what you could get for a manufactured piece. I'll try and keep the price as low as possible.</li>
-</ul>
-<br/>
-<button onclick="openLink('Home.html')">Home</button>
+<div id="introSection">
+    <p class="emText">
+        Want something 3D printed?<br/><br/>
+        Don't want to use expensive public 3D printers?<br/><br/>
+        You study at Concordia University?<br/><br/>
+    </p>
+    <a class="emTextLink" href="Order.html">Then let's get started!</a>
+</div>
+<div id="infoSection">
+    <p class="sectionTitle">What is this?</p>
+    <div class="sectionContent">
+        <p>
+            Concordian 3D Printing (C3D) is a small 3D printing service I wanted to try making for other Concordia students.<br/><br/>
+            Don't be scared to send me an email at <a class="link" href="mailto:soucy.tommy@gmail.com">soucy.tommy@gmail.com</a> or even contact me on <a class="link" href="https://www.facebook.com/tommy.soucy">facebook</a>
+            if you have some question and want to make sure this isn't a waste of your time.
+        </p>
+    </div>
+</div>
+<footer>
+    <div id="footerLeft">
+        <a class="link" id="contactLink" href="https://www.tommysoucy.vip/Contact.html">Contact</a>
+        <br/>
+        <br/>
+        <a class="link" id="creditsLink" href="https://www.tommysoucy.vip/Credits.html">Credits</a>
+    </div>
+    <div id="footerCenter">
+        <a class="link" id="mainSiteLink" href="https://tommysoucy.vip">Main site</a>
+    </div>
+    <div id="footerRight">
+        <small>Copyright &copy; 2019 Tommy Soucy. All rights reserved.</small>
+    </div>
+</footer>
 </body>
 </html>
